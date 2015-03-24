@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <tx:annotation-driven />
+    <!-- Note that we only load the model and dao beans for this context. each context is actually a separate Java class loader.
+     If we have 'omer.fish' beans found in both context files will be loaded twice, one by each context -->
+	<context:component-scan base-package="omer.fish.model,omer.fish.dao"/>
+	<context:spring-configured/>
+
+	<!-- parse fish.properties file. NOTE: must put it here as well as in fish-servlet.xml otherwise, it doesn't work -->
+	<context:property-placeholder location="classpath:fish.properties"/>
+
+	<!--  InternalResourceViewResolver resolves the view JSP file name by taking the name and appending the 
+		prefix and suffix defined here -->
+    <bean
+        class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/jsp/" />
+        <property name="suffix" value=".jsp" />
+    </bean>
+    
+    <!-- This is needed for converting data into JSON. Also, added the jackson-core-asl-1.9.12.jar to the project -->
+	<bean id="jacksonMessageConverter" class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter"></bean>
+	<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+		<property name="messageConverters">
+		  <list>
+		    <ref bean="jacksonMessageConverter"/>
+		  </list>
+		</property>
+	</bean>
+
+	<!-- This bean is used to wrap all exceptions into Spring's runtime DataAccessException, which wraps
+		other Spring/Hibernate exceptions -->
+	<bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>
+
+    <bean id="dataSource"
+        	class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://localhost:3306/fish" />
+        <property name="username" value="root" />
+        <property name="password" value="admin" />
+        <property name="initialSize" value="2" />
+        <property name="maxActive" value="10" />
+    </bean>
+
+	<!-- This manager will be found automatically by Spring and will handle the transactions -->
+        	<!-- class="org.springframework.jdbc.datasource.DataSourceTransactionManager"> -->
+    <bean id="transactionManager"
+        	class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+	  	<property name="sessionFactory" ref="sessionFactory" />
+	  	<!-- Is this needed? it's already defined in the session factory -->
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+   <bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"/>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.hbm2ddl.auto">update</prop>
+				<prop key="hibernate.jdbc.batch_size">${hibernate.batch.size}</prop>
+			</props>
+		</property>
+		<property name="annotatedClasses">
+			<list>
+				<value>omer.fish.model.data.AnimatedEntity</value>
+			</list>
+		</property>
+<!-- 		<property name="mappingResources"> -->
+<!-- 			<list> -->
+<!-- 				<value>queriesPcs.xml</value> -->
+<!-- 			</list> -->
+<!-- 		</property> -->
+
+	</bean>
+</beans>
