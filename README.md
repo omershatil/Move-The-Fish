@@ -3,8 +3,8 @@ Quick note:
 You can see the project running here (coming soon!)
 Basically it servers as a template for combining Java frameworks (Hibernate, Spring, Spring MVC, Servlets, etc.) with some JavaScript, AJAX, and JQuery. You could use the project as a template for how to use the correct annotations for Spring/Hibernte, how to set a servlet to run on Tomcat, etc.
 In addition, it has some JQuery animation. In particular, I am happy with the way the fish turn. 
-However, the code is not "production quality". It's just to a demo.
-I will soon also add some unit tests with EasyMock and, most importantly some Test Automation mini-framework I came up with that is good for data-driven server automation.
+However, the code is not "production quality". It's just a demo.
+I will soon also add some unit tests with EasyMock and, most importantly some Test Automation mini-framework that is useful for data-driven server automation.
 
 What Does Move The Fish Do?
 ===========================
