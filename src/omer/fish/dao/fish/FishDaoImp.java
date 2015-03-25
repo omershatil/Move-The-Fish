@@ -8,6 +8,11 @@ import org.springframework.transaction.annotation.Transactional;
 import omer.fish.dao.BaseDaoImp;
 import omer.fish.model.data.AnimatedEntity;
 
+/**
+ * The Fish DAO layer. Saves Fish data in the DB.
+ * @author Omer
+ *
+ */
 @Repository("fishDao")
 @Transactional
 public class FishDaoImp extends BaseDaoImp implements FishDao {
