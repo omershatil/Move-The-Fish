@@ -1,6 +1,5 @@
 Quick note:
 =====================================================================================================================
-You can see the project running here (coming soon! Use Firefox/Chrome)
 You can see the project running here http://omershatil.ddns.net/fish/movethefish.html
 Basically it servers as a template for combining Java frameworks (Hibernate, Spring, Spring MVC, Servlets, etc.) with some JavaScript, AJAX, and JQuery. You could use the project as a template for how to use the correct annotations for Spring/Hibernte, how to set a servlet to run on Tomcat, etc.
 In addition, it has some JQuery animation. In particular, I am happy with the way the fish turn. 
@@ -15,11 +14,11 @@ What Does Move The Fish Do?
 - Drag-and-Drop a fish to a new location. The DB updates and the fish will continue from that position.
 - Fish turn around in a way that somewhat gives an illusion of 3D.
 - School of fish move and turn together. You can add fish to the school. You can also move fish away from the school.
-- Server generates the data for the fish. So, two different users accross the planet should see the exact same screen. If one user moves a fish to a new location, a second user will see the fish moves towards that new location.
+- Server generates the data for the fish. So, two different users accross the planet should see the exact same screen. If one user moves a fish to a new location, a second user will see the fish move towards that new location.
 
 Technologies/APIs/Tools used:
 =============================
-- Browser: Firefox, Firebug
+- Browser: Firefox/Chrome, Firebug
 - IDE: Eclipse
 - DB: MySQL
 - Backend: Java, Spring MVC, Servlets, Tomcat, Spring Framework, Hibernate
