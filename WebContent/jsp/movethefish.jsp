@@ -25,6 +25,7 @@
 	}
 	out.print("</style>");
 %>
+<link rel="shortcut icon" href="images/shark.ico" />
 <script type="text/javascript" src="scripts/jquery-1.9.0.js"></script>
 <script type="text/javascript" src="scripts/ui/jquery-ui.js"></script>
 <script type="text/javascript">
