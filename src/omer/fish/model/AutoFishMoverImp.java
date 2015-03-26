@@ -158,7 +158,6 @@ public class AutoFishMoverImp implements AutoFishMover, Runnable {
 					int fishIndex = new Random().nextInt(this.fishMap.size());
 					AnimatedEntity fish = (AnimatedEntity)this.fishMap.values().toArray()[fishIndex];
 					if (fish.getMovingTill() < new Date().getTime()) {
-						// omer: temp
 						setPosition(fish);
 					}
 				}

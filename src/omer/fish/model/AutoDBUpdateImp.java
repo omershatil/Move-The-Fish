@@ -70,7 +70,6 @@ public class AutoDBUpdateImp implements AutoDBUpdate, Runnable {
 				Thread.sleep(this.dbUpdateInterval);
 				this.fishManager.updateAllFishLocation(this.autoFishMover.getFishList());
 				this.fishManager.updateAllFishLocation(this.autoSchoolFishMover.getFishList());
-				// TODO: update all school fish location
 			}
 			catch (InterruptedException ie) {
 			}

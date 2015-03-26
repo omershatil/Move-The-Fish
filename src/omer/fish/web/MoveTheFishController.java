@@ -101,10 +101,9 @@ public class MoveTheFishController {
      */
     @RequestMapping(value = "allFishLocation", method = RequestMethod.GET, consumes="application/json")
     public @ResponseBody Collection<AnimatedEntity> getAllFishLocation(ModelMap model) {
-    	// log.debug(this.autoFishMover.getFishList());
-    	// TODO: wrong. it should take it from memory, from all auto fish movers
+    	// TODO: this is probably wrong. it should take it from memory, from all auto fish movers
     	// List<AnimatedEntity> fishes =  this.fishManager.getAllFish();
-    	// TODO: for now, just update whatever fishes you have
+    	// TODO: for now, just update whatever fish you have
     	// Map<String, AnimatedEntity> tempMap = new HashMap<String, AnimatedEntity>();
     	List<AnimatedEntity> fishes = new ArrayList<AnimatedEntity>();
     	for (AnimatedEntity fish: this.autoFishMover.getFishList()) {

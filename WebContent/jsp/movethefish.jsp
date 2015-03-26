@@ -76,10 +76,12 @@ $(function() {
 	    	$(this).attr('selected_palette_fish', null);
 		}
 	}));
+	// create or delete a fish
 	$('#maindiv').bind('dblclick', function(event) {
 		// NOTE: a dblclick event first generates also two mouse down and up events
 		// if on an existing fish, tell server to delete that fish. if on an open space, ask server to create new fish selected from palette
 		if (event.target.nodeName == "IMG") {
+			// delete
 	    	var fish$ = $('#' + event.target.id);
 	    	fish$.attr('self_remove', 'true');
 	    	delete_fish(fish$);
@@ -95,13 +97,14 @@ $(function() {
 			});
 		}
 	});
+	// if clicked on a fish, stop that fish animation and start drag and drop
 	$('#maindiv').bind('mousedown', function(event) {
 		// use the main div to store the fish id selected by user. 
 		if (event.target.nodeName == "IMG") {
 			var uniqueIdName =  event.target.id;
 			fish$ = $("#" + uniqueIdName);
 			$('#maindiv').attr('selected_fish', uniqueIdName);
-			// if fish is moving, mark it as interrupted so that once user lets the fish go animations don't keep moving it to
+			// if fish is moving, mark it as interrupted so that once user lets the fish go, animations don't keep moving it to
 			// what is now an old target location
 			if ($("#" + uniqueIdName).attr('is_moving')) {
 				fish$.attr('move_interrupted', 'true');
@@ -110,6 +113,7 @@ $(function() {
 			return false;
 		}
 	});
+	// finish drag and drop
 	$(document).bind('mouseup', function(event) {
 		// move the selected fish upon mouse up 
 		// TODO: no hardcoding!
@@ -143,8 +147,8 @@ $(function() {
 			fish$.attr('move_interrupted', null);
 		}
 	});
+	// move the selected fish upon mouse move as part of drag and drop
 	$('#maindiv').bind('mousemove', function(event) {
-		/* move the selected fish upon mouse move */
 		// reconstruct the fish object from id stored on div and move it to new location
 		if ($('#maindiv').attr('selected_fish')) {
 			var selected_fish$ = $('#' + $('#maindiv').attr('selected_fish'));
@@ -174,6 +178,8 @@ $(function() {
 	
 	// CORE FUNCTIONS
 	//=================================================================================================================
+
+	// delete a fish that was double-clicked or was deleted by another user
 	function delete_fish(fish$) {
 		var fish_full_id = fish$.attr('id');
 		var id = fish_full_id.substring(fish_full_id.lastIndexOf("_") + 1, fish_full_id.length);
@@ -228,6 +234,7 @@ $(function() {
 		    },
 		});
 	}
+	// adjust school fish postion to the parent div position and only then create it
 	function adjust_position_and_create_fish(fish) {
 		// if a shcool fish, adjust to position relative to its shcool's div
 		if (fish.type == 'SCHOOL_FISH') {
@@ -249,6 +256,7 @@ $(function() {
 		}
 		create_fish(fish);
 	}
+	// create a fish
 	function create_fish(fish) {
 		// create a fish out of an array. first, determine which div it's going into. 
 		var divId = "#maindiv";
@@ -264,10 +272,10 @@ $(function() {
 		$("#" + fish.uniqueIdName).attr("target_x", fish.x);
 		$("#" + fish.uniqueIdName).attr("target_y", fish.y);
     }
+	// check for updates in fish location. if the location has changed, move the fish to its new location.
+	// To avoid a failed request stopping updates, use the success and complete callbacks.
+	// Note that updateFishLocation gets executed first time upon dom load
 	$(function updateFishLocation() {
-		/* check for updates in fish location. if the location has changed, move the fish to its new location.
-		To avoid a failed request stopping updates, use the success and complete callbacks.
-		Note that updateFishLocation gets executed first time upon dom load */
 	    // set timer to 1000 (TODO:should take from config file)
 		$.ajax({
 		    url: '/fish/get/allFishLocation', 
@@ -425,7 +433,6 @@ $(function() {
 		}
 		else if (x < oldX) {
 			turnX += (turnPixLength + turn_width_displacement);
-			// if (turnX - fish$.width() / 2 < 0) turnX = 0 + fish$.width() / 2;
 			if (uniqueIdName.substring(last_index - 2, last_index) == "_r" && scale_x == 1) {
 				turn(is_school, fish$, moveDuration, moveDelay, oldX, oldY, x, y, w, turnDuration, turnX, minTurnW, -1, 1);
 			}
@@ -452,6 +459,7 @@ $(function() {
 			}
 		}
 	}
+	// move a fish
 	function move(fish$, x, y, moveDuration) {
 		fish$.animate({left: x, top: y}, {
 			duration: moveDuration,

@@ -1,6 +1,6 @@
 Quick note:
 =====================================================================================================================
-You can see the project running here (coming soon!)
+You can see the project running here (coming soon! Use Firefox/Chrome)
 Basically it servers as a template for combining Java frameworks (Hibernate, Spring, Spring MVC, Servlets, etc.) with some JavaScript, AJAX, and JQuery. You could use the project as a template for how to use the correct annotations for Spring/Hibernte, how to set a servlet to run on Tomcat, etc.
 In addition, it has some JQuery animation. In particular, I am happy with the way the fish turn. 
 However, the code is not "production quality". It's just a demo.
@@ -27,7 +27,9 @@ Technologies/APIs/Tools used:
 
 Known Problems:
 ===============
+- Does not work with IE in-spite of use of JQuery. Need to look at why that is.
 - School animation is not perfect. Could improve.
+- If you move a fish away from the school it doesn't always know how to go back and/or faces the wrong direction.
 
 Possible New Features:
 ======================

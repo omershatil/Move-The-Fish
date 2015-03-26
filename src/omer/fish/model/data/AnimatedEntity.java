@@ -7,6 +7,12 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+/**
+ * Represents a fish or a school of fish, or whatever I may add later to be animated. Note that it's used across the MVC
+ * and is sent to the front end (henced the Serializable interface).
+ * @author Omer
+ *
+ */
 @Entity
 public class AnimatedEntity implements Serializable {
 	private static final long serialVersionUID = -598666277228837861L;
