@@ -14,11 +14,11 @@ What Does Move The Fish Do?
 - Drag-and-Drop a fish to a new location. The DB updates and the fish will continue from that position.
 - Fish turn around in a way that somewhat gives an illusion of 3D.
 - School of fish move and turn together. You can add fish to the school. You can also move fish away from the school.
-- Server generates the data for the fish. So, two different users accross the planet should see the exact same screen. If one user moves a fish to a new location, a second user will see the fish moves towards that new location.
+- Server generates the data for the fish. So, two different users accross the planet should see the exact same screen. If one user moves a fish to a new location, a second user will see the fish move towards that new location.
 
 Technologies/APIs/Tools used:
 =============================
-- Browser: Firefox, Firebug
+- Browser: Firefox/Chrome, Firebug
 - IDE: Eclipse
 - DB: MySQL
 - Backend: Java, Spring MVC, Servlets, Tomcat, Spring Framework, Hibernate
