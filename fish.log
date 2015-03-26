@@ -1,0 +1,511 @@
+DEBUG [2015-03-21 14:28:40 CET] (main) - Initializing new StandardEnvironment
+DEBUG [2015-03-21 14:28:40 CET] (main) - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:40 CET] (main) - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:40 CET] (main) - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+ INFO [2015-03-21 14:28:40 CET] (main) - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3747c1db: startup date [Sat Mar 21 14:28:40 CET 2015]; root of context hierarchy
+DEBUG [2015-03-21 14:28:40 CET] (main) - Initializing new StandardEnvironment
+DEBUG [2015-03-21 14:28:40 CET] (main) - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:40 CET] (main) - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:40 CET] (main) - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG [2015-03-21 14:28:40 CET] (main) - Initializing new StandardEnvironment
+DEBUG [2015-03-21 14:28:40 CET] (main) - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:40 CET] (main) - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:40 CET] (main) - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+ INFO [2015-03-21 14:28:40 CET] (main) - Loading XML bean definitions from class path resource [application-context.xml]
+DEBUG [2015-03-21 14:28:40 CET] (main) - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+DEBUG [2015-03-21 14:28:40 CET] (main) - Loading schema mappings from [META-INF/spring.schemas]
+DEBUG [2015-03-21 14:28:40 CET] (main) - Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.2.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.1.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+DEBUG [2015-03-21 14:28:40 CET] (main) - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+DEBUG [2015-03-21 14:28:40 CET] (main) - Found XML schema [http://www.springframework.org/schema/tx/spring-tx-3.0.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.0.xsd
+DEBUG [2015-03-21 14:28:40 CET] (main) - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+DEBUG [2015-03-21 14:28:40 CET] (main) - Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+DEBUG [2015-03-21 14:28:40 CET] (main) - Loading bean definitions
+DEBUG [2015-03-21 14:28:40 CET] (main) - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+DEBUG [2015-03-21 14:28:40 CET] (main) - Initializing new StandardEnvironment
+DEBUG [2015-03-21 14:28:40 CET] (main) - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:40 CET] (main) - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:40 CET] (main) - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Looking for matching resources in directory tree [C:\omer\programming\workspace\fish\build\classes\omer\fish\model]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Searching directory [C:\omer\programming\workspace\fish\build\classes\omer\fish\model] for files matching pattern [C:/omer/programming/workspace/fish/build/classes/omer/fish/model/**/*.class]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Searching directory [C:\omer\programming\workspace\fish\build\classes\omer\fish\model\data] for files matching pattern [C:/omer/programming/workspace/fish/build/classes/omer/fish/model/**/*.class]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Resolved location pattern [classpath*:omer/fish/model/**/*.class] to resources [file [C:\omer\programming\workspace\fish\build\classes\omer\fish\model\AutoDBUpdate.class], file [C:\omer\programming\workspace\fish\build\classes\omer\fish\model\AutoDBUpdateImp.class], file [C:\omer\programming\workspace\fish\build\classes\omer\fish\model\AutoFishMover.class], file [C:\omer\programming\workspace\fish\build\classes\omer\fish\model\AutoFishMoverImp.class], file [C:\omer\programming\workspace\fish\build\classes\omer\fish\model\AutoSchoolFishMoverImp.class], file [C:\omer\programming\workspace\fish\build\classes\omer\fish\model\data\AnimatedEntity.class], file [C:\omer\programming\workspace\fish\build\classes\omer\fish\model\FishManager.class], file [C:\omer\programming\workspace\fish\build\classes\omer\fish\model\FishManagerImp.class]]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Identified candidate component class: file [C:\omer\programming\workspace\fish\build\classes\omer\fish\model\AutoDBUpdateImp.class]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Identified candidate component class: file [C:\omer\programming\workspace\fish\build\classes\omer\fish\model\AutoFishMoverImp.class]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Identified candidate component class: file [C:\omer\programming\workspace\fish\build\classes\omer\fish\model\AutoSchoolFishMoverImp.class]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Identified candidate component class: file [C:\omer\programming\workspace\fish\build\classes\omer\fish\model\FishManagerImp.class]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Looking for matching resources in directory tree [C:\omer\programming\workspace\fish\build\classes\omer\fish\dao]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Searching directory [C:\omer\programming\workspace\fish\build\classes\omer\fish\dao] for files matching pattern [C:/omer/programming/workspace/fish/build/classes/omer/fish/dao/**/*.class]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Searching directory [C:\omer\programming\workspace\fish\build\classes\omer\fish\dao\fish] for files matching pattern [C:/omer/programming/workspace/fish/build/classes/omer/fish/dao/**/*.class]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Resolved location pattern [classpath*:omer/fish/dao/**/*.class] to resources [file [C:\omer\programming\workspace\fish\build\classes\omer\fish\dao\BaseDao.class], file [C:\omer\programming\workspace\fish\build\classes\omer\fish\dao\BaseDaoImp.class], file [C:\omer\programming\workspace\fish\build\classes\omer\fish\dao\fish\FishDao.class], file [C:\omer\programming\workspace\fish\build\classes\omer\fish\dao\fish\FishDaoImp.class], file [C:\omer\programming\workspace\fish\build\classes\omer\fish\dao\fish\TestFishDaoImp.class]]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Identified candidate component class: file [C:\omer\programming\workspace\fish\build\classes\omer\fish\dao\fish\FishDaoImp.class]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Neither XML 'id' nor 'name' specified - using generated bean name [org.springframework.web.servlet.view.InternalResourceViewResolver#0]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Neither XML 'id' nor 'name' specified - using generated bean name [org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Neither XML 'id' nor 'name' specified - using generated bean name [org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Loaded 23 bean definitions from location pattern [application-context.xml]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@3747c1db: org.springframework.beans.factory.support.DefaultListableBeanFactory@106df95: defining beans [org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,autoDBUpdate,autoFishMover,autoSchoolFishMover,fishManager,fishDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.config.internalBeanConfigurerAspect,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.web.servlet.view.InternalResourceViewResolver#0,jacksonMessageConverter,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,dataSource,transactionManager,sessionFactory]; root of factory hierarchy
+DEBUG [2015-03-21 14:28:41 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:41 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:41 CET] (main) - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:41 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:41 CET] (main) - Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Adding [environmentProperties] PropertySource with lowest search precedence
+ INFO [2015-03-21 14:28:41 CET] (main) - Loading properties file from class path resource [fish.properties]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Adding [localProperties] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:41 CET] (main) - Searching for key 'hibernate.batch.size' in [environmentProperties]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Searching for key 'hibernate.batch.size' in [systemProperties]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Searching for key 'hibernate.batch.size' in [systemEnvironment]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Could not find key 'hibernate.batch.size' in any property source. Returning [null]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Searching for key 'hibernate.batch.size' in [localProperties]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Found key 'hibernate.batch.size' in [localProperties] with type [String] and value '3'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:41 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:41 CET] (main) - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:41 CET] (main) - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:41 CET] (main) - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:41 CET] (main) - Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:41 CET] (main) - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:41 CET] (main) - Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating shared instance of singleton bean 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating instance of bean 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Eagerly caching bean 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:41 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:41 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:41 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating shared instance of singleton bean 'sessionFactory'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating instance of bean 'sessionFactory'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Eagerly caching bean 'sessionFactory' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating shared instance of singleton bean 'dataSource'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Creating instance of bean 'dataSource'
+DEBUG [2015-03-21 14:28:41 CET] (main) - Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:41 CET] (main) - Initializing new StandardEnvironment
+DEBUG [2015-03-21 14:28:41 CET] (main) - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:41 CET] (main) - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:41 CET] (main) - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Initializing new StandardEnvironment
+DEBUG [2015-03-21 14:28:41 CET] (main) - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:41 CET] (main) - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:41 CET] (main) - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Initializing new StandardEnvironment
+DEBUG [2015-03-21 14:28:41 CET] (main) - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:41 CET] (main) - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:41 CET] (main) - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Initializing new StandardEnvironment
+DEBUG [2015-03-21 14:28:41 CET] (main) - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:41 CET] (main) - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:41 CET] (main) - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG [2015-03-21 14:28:41 CET] (main) - Initializing new StandardEnvironment
+DEBUG [2015-03-21 14:28:41 CET] (main) - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:41 CET] (main) - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:41 CET] (main) - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+ INFO [2015-03-21 14:28:42 CET] (main) - Bean 'dataSource' of type [class org.apache.commons.dbcp.BasicDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+DEBUG [2015-03-21 14:28:42 CET] (main) - Finished creating instance of bean 'dataSource'
+DEBUG [2015-03-21 14:28:42 CET] (main) - Invoking afterPropertiesSet() on bean with name 'sessionFactory'
+ INFO [2015-03-21 14:28:42 CET] (main) - Building new Hibernate SessionFactory
+ INFO [2015-03-21 14:28:43 CET] (main) - Bean 'sessionFactory' of type [class org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+DEBUG [2015-03-21 14:28:43 CET] (main) - Finished creating instance of bean 'sessionFactory'
+DEBUG [2015-03-21 14:28:43 CET] (main) - Finished creating instance of bean 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0'
+DEBUG [2015-03-21 14:28:43 CET] (main) - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@2f6e4ddd]
+DEBUG [2015-03-21 14:28:43 CET] (main) - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@71292d12]
+DEBUG [2015-03-21 14:28:43 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:43 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:43 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:43 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:43 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+ INFO [2015-03-21 14:28:43 CET] (main) - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@106df95: defining beans [org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,autoDBUpdate,autoFishMover,autoSchoolFishMover,fishManager,fishDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.config.internalBeanConfigurerAspect,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.web.servlet.view.InternalResourceViewResolver#0,jacksonMessageConverter,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0,dataSource,transactionManager,sessionFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+DEBUG [2015-03-21 14:28:43 CET] (main) - Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+DEBUG [2015-03-21 14:28:43 CET] (main) - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+DEBUG [2015-03-21 14:28:43 CET] (main) - Creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+DEBUG [2015-03-21 14:28:43 CET] (main) - Eagerly caching bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:43 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:43 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:43 CET] (main) - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+DEBUG [2015-03-21 14:28:43 CET] (main) - Creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+DEBUG [2015-03-21 14:28:43 CET] (main) - Eagerly caching bean 'org.springframework.transaction.config.internalTransactionAdvisor' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning eagerly cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' that is not fully initialized yet - a consequence of a circular reference
+DEBUG [2015-03-21 14:28:44 CET] (main) - Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Finished creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Eagerly caching bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Invoking afterPropertiesSet() on bean with name 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Finished creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating shared instance of singleton bean 'autoDBUpdate'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating instance of bean 'autoDBUpdate'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Found init method on class [omer.fish.model.AutoDBUpdateImp]: public void omer.fish.model.AutoDBUpdateImp.init()
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered init method on class [omer.fish.model.AutoDBUpdateImp]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@316510
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoDBUpdateImp]: AutowiredFieldElement for private omer.fish.model.AutoFishMover omer.fish.model.AutoDBUpdateImp.autoFishMover
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoDBUpdateImp]: AutowiredFieldElement for private omer.fish.model.AutoFishMover omer.fish.model.AutoDBUpdateImp.autoSchoolFishMover
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoDBUpdateImp]: AutowiredFieldElement for private omer.fish.model.FishManager omer.fish.model.AutoDBUpdateImp.fishManager
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoDBUpdateImp]: AutowiredFieldElement for private java.lang.String omer.fish.model.AutoDBUpdateImp.dbUpdateIntervalString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoDBUpdateImp]: AutowiredFieldElement for private java.lang.String omer.fish.model.AutoDBUpdateImp.autoMoveString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Eagerly caching bean 'autoDBUpdate' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoDBUpdate': AutowiredFieldElement for private omer.fish.model.AutoFishMover omer.fish.model.AutoDBUpdateImp.autoFishMover
+DEBUG [2015-03-21 14:28:44 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:44 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating shared instance of singleton bean 'autoFishMover'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating instance of bean 'autoFishMover'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Found init method on class [omer.fish.model.AutoFishMoverImp]: public void omer.fish.model.AutoFishMoverImp.init()
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered init method on class [omer.fish.model.AutoFishMoverImp]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@316510
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoFishMoverImp]: AutowiredFieldElement for private omer.fish.model.FishManager omer.fish.model.AutoFishMoverImp.fishManager
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoFishMoverImp]: AutowiredFieldElement for private java.lang.String omer.fish.model.AutoFishMoverImp.fishUpdateIntervalString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoFishMoverImp]: AutowiredFieldElement for private java.lang.String omer.fish.model.AutoFishMoverImp.autoMoveString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoFishMoverImp]: AutowiredFieldElement for private java.lang.String omer.fish.model.AutoFishMoverImp.tankWidthString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoFishMoverImp]: AutowiredFieldElement for private java.lang.String omer.fish.model.AutoFishMoverImp.tankHeightString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoFishMoverImp]: AutowiredFieldElement for private java.lang.String omer.fish.model.AutoFishMoverImp.delayString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Eagerly caching bean 'autoFishMover' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoFishMover': AutowiredFieldElement for private omer.fish.model.FishManager omer.fish.model.AutoFishMoverImp.fishManager
+DEBUG [2015-03-21 14:28:44 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:44 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating shared instance of singleton bean 'fishManager'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating instance of bean 'fishManager'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.FishManagerImp]: AutowiredFieldElement for private omer.fish.dao.fish.FishDao omer.fish.model.FishManagerImp.fishDao
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.FishManagerImp]: AutowiredFieldElement for private omer.fish.model.AutoFishMover omer.fish.model.FishManagerImp.autoFishMover
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.FishManagerImp]: AutowiredFieldElement for private omer.fish.model.AutoFishMover omer.fish.model.FishManagerImp.autoSchoolFishMover
+DEBUG [2015-03-21 14:28:44 CET] (main) - Eagerly caching bean 'fishManager' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'fishManager': AutowiredFieldElement for private omer.fish.dao.fish.FishDao omer.fish.model.FishManagerImp.fishDao
+DEBUG [2015-03-21 14:28:44 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:44 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating shared instance of singleton bean 'fishDao'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating instance of bean 'fishDao'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.dao.fish.FishDaoImp]: AutowiredFieldElement for private org.hibernate.SessionFactory omer.fish.dao.BaseDaoImp.sessionFactory
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.dao.fish.FishDaoImp]: AutowiredFieldElement for private javax.sql.DataSource omer.fish.dao.BaseDaoImp.dataSource
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.dao.fish.FishDaoImp]: AutowiredFieldElement for private java.lang.String omer.fish.dao.BaseDaoImp.batchSize
+DEBUG [2015-03-21 14:28:44 CET] (main) - Eagerly caching bean 'fishDao' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'fishDao': AutowiredFieldElement for private org.hibernate.SessionFactory omer.fish.dao.BaseDaoImp.sessionFactory
+DEBUG [2015-03-21 14:28:44 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:44 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'sessionFactory'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Autowiring by type from bean name 'fishDao' to bean named 'sessionFactory'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'fishDao': AutowiredFieldElement for private javax.sql.DataSource omer.fish.dao.BaseDaoImp.dataSource
+DEBUG [2015-03-21 14:28:44 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:44 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'dataSource'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Autowiring by type from bean name 'fishDao' to bean named 'dataSource'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'fishDao': AutowiredFieldElement for private java.lang.String omer.fish.dao.BaseDaoImp.batchSize
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'hibernate.batch.size' in [environmentProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'hibernate.batch.size' in [systemProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'hibernate.batch.size' in [systemEnvironment]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Could not find key 'hibernate.batch.size' in any property source. Returning [null]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'hibernate.batch.size' in [localProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Found key 'hibernate.batch.size' in [localProperties] with type [String] and value '3'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Adding transactional method 'find' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating implicit proxy for bean 'fishDao' with 0 common interceptors and 1 specific interceptors
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [omer.fish.dao.fish.FishDaoImp@50908faf]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Finished creating instance of bean 'fishDao'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Autowiring by type from bean name 'fishManager' to bean named 'fishDao'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'fishManager': AutowiredFieldElement for private omer.fish.model.AutoFishMover omer.fish.model.FishManagerImp.autoFishMover
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning eagerly cached instance of singleton bean 'autoFishMover' that is not fully initialized yet - a consequence of a circular reference
+DEBUG [2015-03-21 14:28:44 CET] (main) - Autowiring by type from bean name 'fishManager' to bean named 'autoFishMover'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'fishManager': AutowiredFieldElement for private omer.fish.model.AutoFishMover omer.fish.model.FishManagerImp.autoSchoolFishMover
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating shared instance of singleton bean 'autoSchoolFishMover'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating instance of bean 'autoSchoolFishMover'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Found init method on class [omer.fish.model.AutoSchoolFishMoverImp]: public void omer.fish.model.AutoSchoolFishMoverImp.init()
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered init method on class [omer.fish.model.AutoSchoolFishMoverImp]: org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement@316510
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoSchoolFishMoverImp]: AutowiredFieldElement for private omer.fish.model.FishManager omer.fish.model.AutoSchoolFishMoverImp.fishManager
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoSchoolFishMoverImp]: AutowiredFieldElement for private java.lang.String omer.fish.model.AutoSchoolFishMoverImp.fishUpdateIntervalString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoSchoolFishMoverImp]: AutowiredFieldElement for private java.lang.String omer.fish.model.AutoSchoolFishMoverImp.autoMoveString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoSchoolFishMoverImp]: AutowiredFieldElement for private java.lang.String omer.fish.model.AutoSchoolFishMoverImp.tankWidthString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoSchoolFishMoverImp]: AutowiredFieldElement for private java.lang.String omer.fish.model.AutoSchoolFishMoverImp.tankHeightString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Registered injected element on class [omer.fish.model.AutoSchoolFishMoverImp]: AutowiredFieldElement for private java.lang.String omer.fish.model.AutoSchoolFishMoverImp.delayString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Eagerly caching bean 'autoSchoolFishMover' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoSchoolFishMover': AutowiredFieldElement for private omer.fish.model.FishManager omer.fish.model.AutoSchoolFishMoverImp.fishManager
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning eagerly cached instance of singleton bean 'fishManager' that is not fully initialized yet - a consequence of a circular reference
+DEBUG [2015-03-21 14:28:44 CET] (main) - Autowiring by type from bean name 'autoSchoolFishMover' to bean named 'fishManager'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoSchoolFishMover': AutowiredFieldElement for private java.lang.String omer.fish.model.AutoSchoolFishMoverImp.fishUpdateIntervalString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'school.fish.ms.update.interval' in [environmentProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'school.fish.ms.update.interval' in [systemProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'school.fish.ms.update.interval' in [systemEnvironment]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Could not find key 'school.fish.ms.update.interval' in any property source. Returning [null]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'school.fish.ms.update.interval' in [localProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Found key 'school.fish.ms.update.interval' in [localProperties] with type [String] and value '8000'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoSchoolFishMover': AutowiredFieldElement for private java.lang.String omer.fish.model.AutoSchoolFishMoverImp.autoMoveString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'school.auto.move' in [environmentProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'school.auto.move' in [systemProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'school.auto.move' in [systemEnvironment]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Could not find key 'school.auto.move' in any property source. Returning [null]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'school.auto.move' in [localProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Found key 'school.auto.move' in [localProperties] with type [String] and value 'false'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoSchoolFishMover': AutowiredFieldElement for private java.lang.String omer.fish.model.AutoSchoolFishMoverImp.tankWidthString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.tank.w' in [environmentProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.tank.w' in [systemProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.tank.w' in [systemEnvironment]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Could not find key 'fish.tank.w' in any property source. Returning [null]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.tank.w' in [localProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Found key 'fish.tank.w' in [localProperties] with type [String] and value '1300'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoSchoolFishMover': AutowiredFieldElement for private java.lang.String omer.fish.model.AutoSchoolFishMoverImp.tankHeightString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.tank.h' in [environmentProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.tank.h' in [systemProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.tank.h' in [systemEnvironment]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Could not find key 'fish.tank.h' in any property source. Returning [null]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.tank.h' in [localProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Found key 'fish.tank.h' in [localProperties] with type [String] and value '700'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoSchoolFishMover': AutowiredFieldElement for private java.lang.String omer.fish.model.AutoSchoolFishMoverImp.delayString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'school.fish.move.max.ms.delay' in [environmentProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'school.fish.move.max.ms.delay' in [systemProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'school.fish.move.max.ms.delay' in [systemEnvironment]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Could not find key 'school.fish.move.max.ms.delay' in any property source. Returning [null]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'school.fish.move.max.ms.delay' in [localProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Found key 'school.fish.move.max.ms.delay' in [localProperties] with type [String] and value '2000'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Invoking init method on bean 'autoSchoolFishMover': public void omer.fish.model.AutoSchoolFishMoverImp.init()
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Adding transactional method 'findAll' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating shared instance of singleton bean 'transactionManager'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating instance of bean 'transactionManager'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'sessionFactory'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'dataSource'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Invoking afterPropertiesSet() on bean with name 'transactionManager'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Finished creating instance of bean 'transactionManager'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating new transaction with name [omer.fish.dao.fish.FishDaoImp.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+DEBUG [2015-03-21 14:28:44 CET] (main) - Opened new Session [org.hibernate.impl.SessionImpl@3775ace6] for Hibernate transaction
+DEBUG [2015-03-21 14:28:44 CET] (main) - Preparing JDBC Connection of Hibernate Session [org.hibernate.impl.SessionImpl@3775ace6]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Setting JDBC Connection [jdbc:mysql://localhost:3306/fish, UserName=root@localhost, MySQL-AB JDBC Driver] read-only
+DEBUG [2015-03-21 14:28:44 CET] (main) - Exposing Hibernate transaction as JDBC transaction [jdbc:mysql://localhost:3306/fish, UserName=root@localhost, MySQL-AB JDBC Driver]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Initiating transaction commit
+DEBUG [2015-03-21 14:28:44 CET] (main) - Committing Hibernate transaction on Session [org.hibernate.impl.SessionImpl@3775ace6]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Resetting read-only flag of JDBC Connection [jdbc:mysql://localhost:3306/fish, UserName=root@localhost, MySQL-AB JDBC Driver]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Closing Hibernate Session [org.hibernate.impl.SessionImpl@3775ace6] after transaction
+DEBUG [2015-03-21 14:28:44 CET] (main) - Closing Hibernate Session
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Finished creating instance of bean 'autoSchoolFishMover'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Autowiring by type from bean name 'fishManager' to bean named 'autoSchoolFishMover'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Finished creating instance of bean 'fishManager'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Autowiring by type from bean name 'autoFishMover' to bean named 'fishManager'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoFishMover': AutowiredFieldElement for private java.lang.String omer.fish.model.AutoFishMoverImp.fishUpdateIntervalString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.ms.update.interval' in [environmentProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.ms.update.interval' in [systemProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.ms.update.interval' in [systemEnvironment]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Could not find key 'fish.ms.update.interval' in any property source. Returning [null]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.ms.update.interval' in [localProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Found key 'fish.ms.update.interval' in [localProperties] with type [String] and value '8000'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoFishMover': AutowiredFieldElement for private java.lang.String omer.fish.model.AutoFishMoverImp.autoMoveString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'auto.move' in [environmentProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'auto.move' in [systemProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'auto.move' in [systemEnvironment]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Could not find key 'auto.move' in any property source. Returning [null]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'auto.move' in [localProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Found key 'auto.move' in [localProperties] with type [String] and value 'true'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoFishMover': AutowiredFieldElement for private java.lang.String omer.fish.model.AutoFishMoverImp.tankWidthString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.tank.w' in [environmentProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.tank.w' in [systemProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.tank.w' in [systemEnvironment]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Could not find key 'fish.tank.w' in any property source. Returning [null]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.tank.w' in [localProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Found key 'fish.tank.w' in [localProperties] with type [String] and value '1300'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoFishMover': AutowiredFieldElement for private java.lang.String omer.fish.model.AutoFishMoverImp.tankHeightString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.tank.h' in [environmentProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.tank.h' in [systemProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.tank.h' in [systemEnvironment]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Could not find key 'fish.tank.h' in any property source. Returning [null]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.tank.h' in [localProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Found key 'fish.tank.h' in [localProperties] with type [String] and value '700'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoFishMover': AutowiredFieldElement for private java.lang.String omer.fish.model.AutoFishMoverImp.delayString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.move.max.ms.delay' in [environmentProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.move.max.ms.delay' in [systemProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.move.max.ms.delay' in [systemEnvironment]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Could not find key 'fish.move.max.ms.delay' in any property source. Returning [null]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'fish.move.max.ms.delay' in [localProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Found key 'fish.move.max.ms.delay' in [localProperties] with type [String] and value '2000'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Invoking init method on bean 'autoFishMover': public void omer.fish.model.AutoFishMoverImp.init()
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'transactionManager'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating new transaction with name [omer.fish.dao.fish.FishDaoImp.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+DEBUG [2015-03-21 14:28:44 CET] (main) - Opened new Session [org.hibernate.impl.SessionImpl@79a422d9] for Hibernate transaction
+DEBUG [2015-03-21 14:28:44 CET] (main) - Preparing JDBC Connection of Hibernate Session [org.hibernate.impl.SessionImpl@79a422d9]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Setting JDBC Connection [jdbc:mysql://localhost:3306/fish, UserName=root@localhost, MySQL-AB JDBC Driver] read-only
+DEBUG [2015-03-21 14:28:44 CET] (main) - Exposing Hibernate transaction as JDBC transaction [jdbc:mysql://localhost:3306/fish, UserName=root@localhost, MySQL-AB JDBC Driver]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Initiating transaction commit
+DEBUG [2015-03-21 14:28:44 CET] (main) - Committing Hibernate transaction on Session [org.hibernate.impl.SessionImpl@79a422d9]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Resetting read-only flag of JDBC Connection [jdbc:mysql://localhost:3306/fish, UserName=root@localhost, MySQL-AB JDBC Driver]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Closing Hibernate Session [org.hibernate.impl.SessionImpl@79a422d9] after transaction
+DEBUG [2015-03-21 14:28:44 CET] (main) - Closing Hibernate Session
+DEBUG [2015-03-21 14:28:44 CET] (main) - Finished creating instance of bean 'autoFishMover'
+DEBUG [2015-03-21 14:28:44 CET] (Thread-0) - run() is called
+DEBUG [2015-03-21 14:28:44 CET] (main) - Autowiring by type from bean name 'autoDBUpdate' to bean named 'autoFishMover'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoDBUpdate': AutowiredFieldElement for private omer.fish.model.AutoFishMover omer.fish.model.AutoDBUpdateImp.autoSchoolFishMover
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'autoSchoolFishMover'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Autowiring by type from bean name 'autoDBUpdate' to bean named 'autoSchoolFishMover'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoDBUpdate': AutowiredFieldElement for private omer.fish.model.FishManager omer.fish.model.AutoDBUpdateImp.fishManager
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'fishManager'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Autowiring by type from bean name 'autoDBUpdate' to bean named 'fishManager'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoDBUpdate': AutowiredFieldElement for private java.lang.String omer.fish.model.AutoDBUpdateImp.dbUpdateIntervalString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'db.ms.update.interval' in [environmentProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'db.ms.update.interval' in [systemProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'db.ms.update.interval' in [systemEnvironment]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Could not find key 'db.ms.update.interval' in any property source. Returning [null]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'db.ms.update.interval' in [localProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Found key 'db.ms.update.interval' in [localProperties] with type [String] and value '12000'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Processing injected method of bean 'autoDBUpdate': AutowiredFieldElement for private java.lang.String omer.fish.model.AutoDBUpdateImp.autoMoveString
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'auto.move' in [environmentProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'auto.move' in [systemProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'auto.move' in [systemEnvironment]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Could not find key 'auto.move' in any property source. Returning [null]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Searching for key 'auto.move' in [localProperties]
+DEBUG [2015-03-21 14:28:44 CET] (main) - Found key 'auto.move' in [localProperties] with type [String] and value 'true'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Invoking init method on bean 'autoDBUpdate': public void omer.fish.model.AutoDBUpdateImp.init()
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Finished creating instance of bean 'autoDBUpdate'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'autoFishMover'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'autoSchoolFishMover'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'fishManager'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'fishDao'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:44 CET] (Thread-1) - run() is called
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating shared instance of singleton bean 'org.springframework.context.config.internalBeanConfigurerAspect'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating instance of bean 'org.springframework.context.config.internalBeanConfigurerAspect'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Eagerly caching bean 'org.springframework.context.config.internalBeanConfigurerAspect' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:44 CET] (main) - Invoking afterPropertiesSet() on bean with name 'org.springframework.context.config.internalBeanConfigurerAspect'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Finished creating instance of bean 'org.springframework.context.config.internalBeanConfigurerAspect'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating shared instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Eagerly caching bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:44 CET] (main) - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Finished creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating shared instance of singleton bean 'jacksonMessageConverter'
+DEBUG [2015-03-21 14:28:44 CET] (main) - Creating instance of bean 'jacksonMessageConverter'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Eagerly caching bean 'jacksonMessageConverter' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Finished creating instance of bean 'jacksonMessageConverter'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Eagerly caching bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0' to allow for resolving potential circular references
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'jacksonMessageConverter'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initializing new StandardEnvironment
+DEBUG [2015-03-21 14:28:45 CET] (main) - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:45 CET] (main) - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initializing new StandardEnvironment
+DEBUG [2015-03-21 14:28:45 CET] (main) - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:45 CET] (main) - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initializing new StandardEnvironment
+DEBUG [2015-03-21 14:28:45 CET] (main) - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:45 CET] (main) - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initializing new StandardEnvironment
+DEBUG [2015-03-21 14:28:45 CET] (main) - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:45 CET] (main) - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initializing new StandardEnvironment
+DEBUG [2015-03-21 14:28:45 CET] (main) - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:45 CET] (main) - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor#0'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'dataSource'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'transactionManager'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'sessionFactory'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@3d6a2c7b]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Resolving return type for [public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()] with concrete method arguments [{}].
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'lifecycleProcessor'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'fishManager'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'fishDao'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'transactionManager'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Creating new transaction with name [omer.fish.dao.fish.FishDaoImp.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+DEBUG [2015-03-21 14:28:45 CET] (main) - Opened new Session [org.hibernate.impl.SessionImpl@798c668c] for Hibernate transaction
+DEBUG [2015-03-21 14:28:45 CET] (main) - Preparing JDBC Connection of Hibernate Session [org.hibernate.impl.SessionImpl@798c668c]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Setting JDBC Connection [jdbc:mysql://localhost:3306/fish, UserName=root@localhost, MySQL-AB JDBC Driver] read-only
+DEBUG [2015-03-21 14:28:45 CET] (main) - Exposing Hibernate transaction as JDBC transaction [jdbc:mysql://localhost:3306/fish, UserName=root@localhost, MySQL-AB JDBC Driver]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initiating transaction commit
+DEBUG [2015-03-21 14:28:45 CET] (main) - Committing Hibernate transaction on Session [org.hibernate.impl.SessionImpl@798c668c]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Resetting read-only flag of JDBC Connection [jdbc:mysql://localhost:3306/fish, UserName=root@localhost, MySQL-AB JDBC Driver]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Closing Hibernate Session [org.hibernate.impl.SessionImpl@798c668c] after transaction
+DEBUG [2015-03-21 14:28:45 CET] (main) - Closing Hibernate Session
+DEBUG [2015-03-21 14:28:45 CET] (main) - Adding transactional method 'save' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'transactionManager'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Creating new transaction with name [omer.fish.dao.fish.FishDaoImp.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG [2015-03-21 14:28:45 CET] (main) - Opened new Session [org.hibernate.impl.SessionImpl@46993aaa] for Hibernate transaction
+DEBUG [2015-03-21 14:28:45 CET] (main) - Preparing JDBC Connection of Hibernate Session [org.hibernate.impl.SessionImpl@46993aaa]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Exposing Hibernate transaction as JDBC transaction [jdbc:mysql://localhost:3306/fish, UserName=root@localhost, MySQL-AB JDBC Driver]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initiating transaction commit
+DEBUG [2015-03-21 14:28:45 CET] (main) - Committing Hibernate transaction on Session [org.hibernate.impl.SessionImpl@46993aaa]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Closing Hibernate Session [org.hibernate.impl.SessionImpl@46993aaa] after transaction
+DEBUG [2015-03-21 14:28:45 CET] (main) - Closing Hibernate Session
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'transactionManager'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Creating new transaction with name [omer.fish.dao.fish.FishDaoImp.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG [2015-03-21 14:28:45 CET] (main) - Opened new Session [org.hibernate.impl.SessionImpl@1ea4daa3] for Hibernate transaction
+DEBUG [2015-03-21 14:28:45 CET] (main) - Preparing JDBC Connection of Hibernate Session [org.hibernate.impl.SessionImpl@1ea4daa3]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Exposing Hibernate transaction as JDBC transaction [jdbc:mysql://localhost:3306/fish, UserName=root@localhost, MySQL-AB JDBC Driver]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initiating transaction commit
+DEBUG [2015-03-21 14:28:45 CET] (main) - Committing Hibernate transaction on Session [org.hibernate.impl.SessionImpl@1ea4daa3]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Closing Hibernate Session [org.hibernate.impl.SessionImpl@1ea4daa3] after transaction
+DEBUG [2015-03-21 14:28:45 CET] (main) - Closing Hibernate Session
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'transactionManager'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Creating new transaction with name [omer.fish.dao.fish.FishDaoImp.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG [2015-03-21 14:28:45 CET] (main) - Opened new Session [org.hibernate.impl.SessionImpl@1ddd40f3] for Hibernate transaction
+DEBUG [2015-03-21 14:28:45 CET] (main) - Preparing JDBC Connection of Hibernate Session [org.hibernate.impl.SessionImpl@1ddd40f3]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Exposing Hibernate transaction as JDBC transaction [jdbc:mysql://localhost:3306/fish, UserName=root@localhost, MySQL-AB JDBC Driver]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initiating transaction commit
+DEBUG [2015-03-21 14:28:45 CET] (main) - Committing Hibernate transaction on Session [org.hibernate.impl.SessionImpl@1ddd40f3]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Closing Hibernate Session [org.hibernate.impl.SessionImpl@1ddd40f3] after transaction
+DEBUG [2015-03-21 14:28:45 CET] (main) - Closing Hibernate Session
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'transactionManager'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Creating new transaction with name [omer.fish.dao.fish.FishDaoImp.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG [2015-03-21 14:28:45 CET] (main) - Opened new Session [org.hibernate.impl.SessionImpl@64dc420b] for Hibernate transaction
+DEBUG [2015-03-21 14:28:45 CET] (main) - Preparing JDBC Connection of Hibernate Session [org.hibernate.impl.SessionImpl@64dc420b]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Exposing Hibernate transaction as JDBC transaction [jdbc:mysql://localhost:3306/fish, UserName=root@localhost, MySQL-AB JDBC Driver]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initiating transaction commit
+DEBUG [2015-03-21 14:28:45 CET] (main) - Committing Hibernate transaction on Session [org.hibernate.impl.SessionImpl@64dc420b]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Closing Hibernate Session [org.hibernate.impl.SessionImpl@64dc420b] after transaction
+DEBUG [2015-03-21 14:28:45 CET] (main) - Closing Hibernate Session
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'transactionManager'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Creating new transaction with name [omer.fish.dao.fish.FishDaoImp.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG [2015-03-21 14:28:45 CET] (main) - Opened new Session [org.hibernate.impl.SessionImpl@576f8789] for Hibernate transaction
+DEBUG [2015-03-21 14:28:45 CET] (main) - Preparing JDBC Connection of Hibernate Session [org.hibernate.impl.SessionImpl@576f8789]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Exposing Hibernate transaction as JDBC transaction [jdbc:mysql://localhost:3306/fish, UserName=root@localhost, MySQL-AB JDBC Driver]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initiating transaction commit
+DEBUG [2015-03-21 14:28:45 CET] (main) - Committing Hibernate transaction on Session [org.hibernate.impl.SessionImpl@576f8789]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Closing Hibernate Session [org.hibernate.impl.SessionImpl@576f8789] after transaction
+DEBUG [2015-03-21 14:28:45 CET] (main) - Closing Hibernate Session
+DEBUG [2015-03-21 14:28:45 CET] (main) - Returning cached instance of singleton bean 'transactionManager'
+DEBUG [2015-03-21 14:28:45 CET] (main) - Creating new transaction with name [omer.fish.dao.fish.FishDaoImp.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG [2015-03-21 14:28:45 CET] (main) - Opened new Session [org.hibernate.impl.SessionImpl@3125fe1] for Hibernate transaction
+DEBUG [2015-03-21 14:28:45 CET] (main) - Preparing JDBC Connection of Hibernate Session [org.hibernate.impl.SessionImpl@3125fe1]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Exposing Hibernate transaction as JDBC transaction [jdbc:mysql://localhost:3306/fish, UserName=root@localhost, MySQL-AB JDBC Driver]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Initiating transaction commit
+DEBUG [2015-03-21 14:28:45 CET] (main) - Committing Hibernate transaction on Session [org.hibernate.impl.SessionImpl@3125fe1]
+DEBUG [2015-03-21 14:28:45 CET] (main) - Closing Hibernate Session [org.hibernate.impl.SessionImpl@3125fe1] after transaction
+DEBUG [2015-03-21 14:28:45 CET] (main) - Closing Hibernate Session
