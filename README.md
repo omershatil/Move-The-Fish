@@ -33,6 +33,7 @@ Known Problems:
 
 Possible New Features:
 ======================
+- Rewrite using AngularJS.
 - When someone grabs a fish and drops it in a new location it panics and rushes forward when let go. Then it goes back to normal speed.
 - External apps to be able to also cause the fish to move via JMS calls, and REST
 - DB to keep track of fish that the users mark for tracking, in order to be able to display a map of movement of each fish in a separate window
